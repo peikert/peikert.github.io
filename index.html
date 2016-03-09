@@ -1,1 +1,566 @@
-echo "Hello World"
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://peikert.wordpress.com/xmlrpc.php">
+
+<title>Christian D. Peikert</title>
+<link rel="alternate" type="application/rss+xml" title="Christian D. Peikert &raquo; Feed" href="https://peikert.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Christian D. Peikert &raquo; Kommentar Feed" href="https://peikert.wordpress.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/_static/??-eJx9j9FuwyAMRX9oFLXK1qdp3wLEG04AIwzN+vdzUhVpmsYLute+B9t6y8pRqpCqjk3l0L4wseaIAe650AKu/nYnx/yi/8GaZVcwVyRxnxQCbaO8pxsUZZu1AYSu9wA9jsmFNktZCno27FE+4FPE9DeysK7SXy19dzGaG3DdKajZuFUdbniWp1IdPZfhgCI9bao3RrSZZWdlTZG+o6i6f0CoE9Xjti5GvzkqIPWYTd0TEWY0ECBKbITF/Pakdunl7uGYx6rW5gLMSt6ILarqZdDBfcT38/R6na7ny3RZfgBR+dtq' type='text/css' media='all' />
+<link rel='stylesheet' id='franklin-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%7CSource+Sans+Pro%3A400%2C700%2C900&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://s0.wp.com/_static/??-eJyNjtEKwjAMRX/IGDcm+CJ+S1ezGm2T0nYO/97KXqbi8CXcS84hwSmCVSkkBcMI0Y+OJaMjocR18SNubc4bXLjlQoEyxrHHIRm5eRbM5eHpL5LFzjRM0Wr4chafUdArz3MNEy31iDkHFuhNgnu7RjtS8GpNYZW3AoM3nNbURL1XV6PDSi3qmlQ0Q6KoqcCgKXz2l3oKx6bb75pD2zXt9QnyvZ52' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1444132114g' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4' href='https://s1.wp.com/_static/??-eJx1jEEOgzAMwD60LtooiMu0t5QS0aImrZqwfR+4wAFxsyzL8C/GZ1ZkBVpMScsUWcCNFNkMrgI5UawbmfzDWuOIcrqnF3nAzcJrzLwvDrrkGpC2X7AwpTy4tAdf+rxs29mm79/NvAIYgzq1' type='text/css' media='all' />
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJx9kFEOwjAIQC9kV6fzYx/Gs2yVLcy21EK36Ontx4xxqSYkhPACPPQSFHpj0xVYTznuCeJjTdXEO/0PUA7H2AlUDv0bNuQFvGiXVLBpRM+aU88mYhCkXA1kLS1bPI8OxOKAuRuh0HXUowWVGGIGvOSrBipw3wboZ4TSso0oSOjMTUVgfELJm8NH8ffDVuriznVzbE/1/tA20wtJH4U3'></script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://peikert.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/7i6FE' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Christian D. Peikert" />
+<meta property="og:url" content="https://peikert.wordpress.com/" />
+<meta property="og:site_name" content="Christian D. Peikert" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="de_DE" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta property="fb:app_id" content="249643311490" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://peikert.wordpress.com/osd.xml" title="Christian D. Peikert" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Christian D. Peikert" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Schreibe Beiträge, verwalte Kommentare und verwalte Christian D. Peikert." /><meta name="msapplication-task" content="name=Einen Beitrag verfassen;action-uri=https://wordpress.com/post/peikert.wordpress.com;icon-uri=https://s2.wp.com/i/icons/post.ico" /><meta name="msapplication-task" content="name=Kommentare moderieren;action-uri=https://peikert.wordpress.com/wp-admin/edit-comments.php?comment_status=moderated;icon-uri=https://s0.wp.com/i/icons/comment.ico" /><meta name="msapplication-task" content="name=Neue Mediendatei hochladen;action-uri=https://peikert.wordpress.com/wp-admin/media-new.php;icon-uri=https://s2.wp.com/i/icons/media.ico" /><meta name="msapplication-task" content="name=Blog-Statistiken;action-uri=https://peikert.wordpress.com/wp-admin/index.php?page=stats;icon-uri=https://s1.wp.com/i/icons/stats.ico" /><meta name="title" content="Christian D. Peikert bei WordPress.com" />
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="home blog logged-in admin-bar no-customize-support mp6 customizer-styles-applied highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Zum Inhalt springen</a>
+	<header id="masthead" class="site-header" role="banner">
+
+		<div class="site-header-top">
+			<div class="inner">
+				<p class="site-description"></p>
+
+				<form id="header-search" action="https://peikert.wordpress.com/">
+					<input type="search" class="search-field" name="s" value="" />
+					<button type="submit" class="search-button">Suche</button>
+				</form><!-- #header-search -->
+
+				
+			</div><!-- .inner -->
+		</div><!-- .site-header-top -->
+
+		<div class="site-header-main">
+			<div class="inner">
+				<div class="site-branding">
+										<h1 class="site-title"><a href="https://peikert.wordpress.com/" rel="home">Christian D. Peikert</a></h1>
+				</div><!-- .site-branding -->
+
+							</div><!-- .inner -->
+		</div><!-- .site-header-main -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+						
+				
+<article id="post-2" class="post-2 post type-post status-publish format-standard hentry category-allgemein">
+		
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://peikert.wordpress.com/2016/03/01/site-is-under-construction/" rel="bookmark">Site is under&nbsp;construction</a></h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<ul class="post-meta"><li class="author vcard"><a class="url fn n" href="https://peikert.wordpress.com/author/peikert/">peikert</a></li><li class="posted-on"><a href="https://peikert.wordpress.com/2016/03/01/site-is-under-construction/" rel="bookmark"><time class="entry-date published updated" datetime="2016-03-01T12:28:57+00:00">1. März 2016</time></a></li></ul><!-- .post-metadata -->			<div class="meta-wrapper">
+				<span class="edit-link"><a class="post-edit-link" href="https://wordpress.com/post/peikert.wordpress.com/2">Bearbeiten</a></span>	</div><!-- .meta-wrapper -->
+		</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+			
+			
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://peikert.wordpress.com/">
+				<label>
+					<span class="screen-reader-text">Suche nach:</span>
+					<input type="search" class="search-field" placeholder="Suchen &hellip;" value="" name="s" title="Suche nach:" />
+				</label>
+				<input type="submit" class="search-submit" value="Suche" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Aktuelle Beiträge</h2>		<ul>
+					<li>
+				<a href="https://peikert.wordpress.com/2016/03/01/site-is-under-construction/">Site is under&nbsp;construction</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Letzte Kommentare</h2></aside><aside id="archives-2" class="widget widget_archive"><h2 class="widget-title">Archive</h2>		<ul>
+			<li><a href='https://peikert.wordpress.com/2016/03/'>März 2016</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Kategorien</h2>		<ul>
+	<li class="cat-item cat-item-2710"><a href="https://peikert.wordpress.com/category/allgemein/" >Allgemein</a>
+</li>
+		</ul>
+</aside></div><!-- #secondary -->
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+				<div id="footer-widgets">
+			<div class="inner">
+
+									<div class="widget-area split-1" role="complementary">
+
+						<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://peikert.wordpress.com/">
+				<label>
+					<span class="screen-reader-text">Suche nach:</span>
+					<input type="search" class="search-field" placeholder="Suchen &hellip;" value="" name="s" title="Suche nach:" />
+				</label>
+				<input type="submit" class="search-submit" value="Suche" />
+			</form></aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h2 class="widget-title">Aktuelle Beiträge</h2>		<ul>
+					<li>
+				<a href="https://peikert.wordpress.com/2016/03/01/site-is-under-construction/">Site is under&nbsp;construction</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-3" class="widget widget_recent_comments"><h2 class="widget-title">Letzte Kommentare</h2></aside><aside id="archives-3" class="widget widget_archive"><h2 class="widget-title">Archive</h2>		<ul>
+			<li><a href='https://peikert.wordpress.com/2016/03/'>März 2016</a></li>
+		</ul>
+		</aside><aside id="categories-3" class="widget widget_categories"><h2 class="widget-title">Kategorien</h2>		<ul>
+	<li class="cat-item cat-item-2710"><a href="https://peikert.wordpress.com/category/allgemein/" >Allgemein</a>
+</li>
+		</ul>
+</aside>
+					</div><!-- .widget-area -->
+				
+			</div><!-- .inner -->
+		</div><!-- #footer-widgets -->
+		
+		<div class="site-footer-bottom">
+			<div class="inner">
+
+				
+				<div class="site-info">
+					<a href="https://de.wordpress.com/?ref=footer_website">Erstelle eine kostenlose Website oder Blog – auf WordPress.com.</a>
+					<span class="sep"> &nbsp;|&nbsp; </span>
+					<a href="https://wordpress.com/themes/franklin/" title="Lerne mehr über dieses Theme.">Das Franklin-Theme</a>.				</div><!-- .site-info -->
+
+			</div><!-- .inner -->
+		</div><!-- .site-footer-bottom -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- wpcom_wp_footer -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+		jQuery(document).ready( function($) {
+			function doFollowingHover() {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				$('#wp-admin-bar-follow > a').bind( 'mouseover.unfollow', function() {
+
+					$(this).html( "Nicht mehr folgen" ).parent( 'li' ).addClass( 'unfollow' );
+				});
+				$('#wp-admin-bar-follow > a').bind( 'mouseout.unfollow', function() {
+					$(this).html( "Du folgst" ).parent( 'li' ).removeClass( 'unfollow' );
+				});
+			}
+							doFollowingHover();
+			
+			$('#wp-admin-bar-follow > a').click( function( e ) {
+				$('#wp-admin-bar-follow > a').unbind( '.unfollow' );
+
+				e.preventDefault();
+
+				var link = $( this ), li = $( '#wp-admin-bar-follow' ), timeout = 0;
+
+				if ( li.hasClass( 'subscribed' ) ) {
+					li.removeClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Folgen" );
+
+					$('body').append( $( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble' );
+
+					var action = 'ab_unsubscribe_from_blog';
+				} else {
+					li.addClass( 'subscribed' ).removeClass( 'unfollow' );
+					link.html( "Du folgst" );
+
+						var left = 131 - link.width();
+						li.append( $( 'div.wpcom-bubble' ).css( { left: '-' + left + 'px' } ) );
+						$( 'div.bubble-txt', 'div.wpcom-bubble' ).html( "Neue Beitr\u00e4ge dieses Blogs werden nun in <a target=\"_blank\" href=\"http:\/\/de.wordpress.com\/\">deinem Reader<\/a> erscheinen. Du kannst E-Mail Benachrichtigungen auf deiner <a target=\"_blank\" href=\"http:\/\/de.wordpress.com\/following\/edit\/\">Abonnements Seite<\/a> verwalten." );
+
+						$( 'div.wpcom-bubble.action-bubble' ).addClass( 'fadein' );
+
+						setTimeout( function() {
+							$('body').on( 'click.bubble touchstart.bubble', function(e) {
+								if ( !$(e.target).hasClass('wpcom-bubble') && !$(e.target).parents( 'div.wpcom-bubble' ).length )
+									hideBubble();
+							});
+							setTimeout( hideBubble, 15000 );
+						}, 500 );
+
+					var action = 'ab_subscribe_to_blog';
+					$('#wp-admin-bar-follow > a').bind( 'mouseout.shift', function() {
+						doFollowingHover();
+						$(this).unbind( '.shift' );
+					});
+				}
+
+				var nonce = link.attr( 'href' ).split( '_wpnonce=' );
+				nonce = nonce[1];
+
+				$.post( "https:\/\/peikert.wordpress.com\/wp-admin\/admin-ajax.php", {
+					'action': action,
+					'_wpnonce': nonce,
+					'source': 'admin_bar',
+					'blog_id': 107749902				});
+			});
+		});
+	/* ]]> */
+	</script>
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201610y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":"44ee60544ccec076018ebc56159a3b51"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<div id="report-form-window" style="display:none;"></div><script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Anmelden \u2026","submittingText":"Sende Kommentar \u2026","postCommentText":"Kommentar absenden","connectingToText":"Verbinde mit %s","commentingAsText":"%1$s: Du kommentierst mit Deinem %2$s-Konto. ","logoutText":"Abmelden","loginText":"Anmelden","connectURL":"https:\/\/peikert.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/peikert.wordpress.com\/wp-login.php?action=logout&_wpnonce=b0ff242d68","homeURL":"https:\/\/peikert.wordpress.com\/","postID":"2","gravDefault":"identicon","enterACommentError":"Bitte gib einen Kommentar ein","enterEmailError":"Bitte hier deine E-Mail-Adresse eingeben","invalidEmailError":"Ung\u00fcltige E-Mail-Adresse","enterAuthorError":"Bitte hier deinen Namen eingeben","gravatarFromEmail":"Dieses Bild wird angezeigt, wenn Du einen Kommentar hinterl\u00e4sst. Klicken, um es anzupassen.","logInToExternalAccount":"Melde dich an, um Details von einem dieser Konten zu verwenden.","change":"\u00c4ndern","changeAccount":"Konto \u00e4ndern","comment_registration":"0","userIsLoggedIn":"1","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1424115551j'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"n\u00e4chste >","prev":"< fr\u00fcher","image":"Bild","of":"von","close":"Schlie\u00dfen","noiframes":"Diese Funktion ben\u00f6tigt Inline-Frames. Du hast Inline-Frames jedoch deaktiviert oder dein Browser unterst\u00fctzt sie nicht.","loadingAnimation":"https:\/\/s1.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+var thickboxL10n = {"next":"n\u00e4chste >","prev":"< fr\u00fcher","image":"Bild","of":"von","close":"Schlie\u00dfen","noiframes":"Diese Funktion ben\u00f6tigt Inline-Frames. Du hast Inline-Frames jedoch deaktiviert oder dein Browser unterst\u00fctzt sie nicht.","loadingAnimation":"https:\/\/s1.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"https:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"107749902","blog_subdomain":"peikert","user_id":"101816006"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetpackEmojiSettings = {"base_url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/emoji\/twemoji\/"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpNotesArgs = {"cacheBuster":"20150825","iframeUrl":"https:\/\/widgets.wp.com\/notifications\/","iframeAppend":"2","iframeScroll":"no","wide":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcom_tos_report_form = {"ajaxurl":"\/wp-admin\/admin-ajax.php","isLoggedoutUser":"","post_ID":null,"current_url":"https:\/\/peikert.wordpress.com","report_this_content":"Melde diesen Inhalt"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"107749902","siteName":"Christian D. Peikert","siteURL":"http:\/\/peikert.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/void.gif' class='avatar avatar-36' height='36' width='36' \/>","canManageOptions":"1","canCustomizeSite":"1","isFollowing":"1","themeSlug":"pub\/franklin","themeURL":"https:\/\/wordpress.com\/themes\/franklin\/","xhrURL":"https:\/\/peikert.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"c3db03e150","isSingular":"","isFolded":"","customizeLink":"https:\/\/peikert.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fpeikert.wordpress.com%2F","i18n":{"view":"Website ansehen","follow":"Folgen","following":"Du folgst","edit":"Bearbeiten","customize":"Anpassen","report":"Melde diesen Inhalt","themeInfo":"Theme herunterladen: Franklin","shortlink":"Kurzlink kopieren","copied":"Kopiert","followedText":"Neue Beitr\u00e4ge von dieser Website erscheinen nun in deinem <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>.","foldBar":"Diese Leiste einklappen","unfoldBar":"Diese Leiste aufklappen","editSubs":"Abonnierte Websites vewalten"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyNkt1ywiAQhV+oyNTqTHvR6bOQzcaQhF3KQtS3FxyNP+PE3ISF8x2WwNF7r4ApIkXdia5xtID+sOrkQ2fJEgypRilabC30FR+m4hVkamdJVSas8ngFrg1cUn5IO0uipeUQgS+u7j9hOK7gCAMuNslgc9XyXk3rM97pYFkHdup20CdPbNHlBj5VugmG+sFS6dYkgmiZZCFPZrQ7UxwLDdJbr3Ldq4YhiWrsYYkzX74WCNZHdf6xmStAx53Vcf8wvuU7jN5Ar5bRD9R9MBLVGAQ44H0y7onKlFQRvkpOll2SaKCde2PiiJdvlp1jUuP6LT8lYR6OLCqgz0nLDxTc83xR9JyRiKG04hFDKPm9rc3tcI5e2WGqMv3nfj8326/1Zvu9/elOPNVrWQ=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['identifyUser', 101816006, 'peikert']);
+_tkq.push(['storeContext', {'blog_id':'107749902','blog_tz':'2','user_lang':'de','blog_lang':'de'}]);
+_stq.push(['view', {'blog':'107749902','v':'wpcom','tz':'2','user':'1','user_id':'101816006','subd':'peikert'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1zNDZ8S252Wis9XUQyb3YrcUVIU2R0VH5TdXIyfFgyfjVBN0lIeEpROGxdTnl0NVVYdlZWLU5pb2Nibld0QXA9Z002d0podEouaGR6Vjlmc2lteFM5d3RKZGZxJkZzfj13T2Z1VSxqQzVoUGlQYjlSQkw5ak1fOEl5d2tdKzVvM2J6PWYmVlk2fHRtNW5pVG0rSjg2XTIwNFVXRXBIRHR2fix+SSxha3QuMyY2TCxNNGwsNS5EVEo5fkcmRU5vR0JBJUssU2tsb1ZNcEcrcjJ2WiVPLTR5LCZ3JV8rQ0U3bUlHeHJJPWV2P2tvcTZ2eXxBRDFpJUYscS9vUVFUY0FYQSxudVMrMHE/TD96WEdCV0ZpL28mcS5vYw=='}]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+		<div id="wpadminbar" class="nojq nojs ltr">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Zur Symbolleiste springen</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Symbolleiste" tabindex="0">
+						<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+			
+		<li id="wp-admin-bar-blog" class="menupop my-sites"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/stats/peikert.wordpress.com">Meine Webseite</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-blog-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-blog-info" class="current-site">		<div class="ab-item ab-empty-item" ><div class="ab-site-icon"></div><span class="ab-site-title">Christian D. Peikert</span><span class="ab-site-description">peikert.wordpress.com</span></div>		</li>
+		<li id="wp-admin-bar-new-site"><a class="ab-item"  href="https://wordpress.com/start/de?ref=admin-bar-logged-in">+ Neues WordPress hinzufügen</a>		</li>
+		<li id="wp-admin-bar-blog-stats" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/stats/peikert.wordpress.com">Statistiken <img style="width: 95px; margin: 0; float: right;" src="https://peikert.wordpress.com/wp-includes/charts/admin-bar-hours-scale-2x.php?masterbar=1" alt="Statistiken" title="Zeigt die Seitenaufrufe pro Stunde der letzten 48 Stunden. Klicke hier um die gesamte Statistik zu sehen." /></a>		</li>
+		<li id="wp-admin-bar-plan" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/plans/peikert.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-plan">Tarif</a><a href="https://wordpress.com/plans/peikert.wordpress.com" class="secondary" id="wp-admin-bar-plan-badge">Kostenlos</a></div>		</li>		</ul>
+			<ul id="wp-admin-bar-publish" class="ab-submenu">
+			
+		<li id="wp-admin-bar-publish-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Publizieren</div>		</li>
+		<li id="wp-admin-bar-new-post" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/posts/peikert.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-edit-post">Blogbeiträge</a><a href="https://wordpress.com/post/peikert.wordpress.com" class="secondary" id="wp-admin-bar-new-post">Hinzufügen</a></div>		</li>
+		<li id="wp-admin-bar-new-page" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/pages/peikert.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-edit-page">Seiten</a><a href="https://wordpress.com/page/peikert.wordpress.com" class="secondary" id="wp-admin-bar-new-page">Hinzufügen</a></div>		</li>		</ul>
+			<ul id="wp-admin-bar-look-and-feel" class="ab-submenu">
+			
+		<li id="wp-admin-bar-look-and-feel-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Personalisieren</div>		</li>
+		<li id="wp-admin-bar-themes" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/design/peikert.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-themes">Themes</a><a href="https://peikert.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fpeikert.wordpress.com%2F" class="secondary" id="wp-admin-bar-cmz">Anpassen</a></div>		</li>
+		<li id="wp-admin-bar-menus" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/menus/peikert.wordpress.com">Menüs</a>		</li>		</ul>
+			<ul id="wp-admin-bar-configuration" class="ab-submenu">
+			
+		<li id="wp-admin-bar-configuration-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Konfigurieren</div>		</li>
+		<li id="wp-admin-bar-sharing" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/sharing/peikert.wordpress.com">Teilen</a>		</li>
+		<li id="wp-admin-bar-users-toolbar" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/people/team/peikert.wordpress.com" class="ab-item primary mb-icon" id="wp-admin-bar-people">Leute</a><a href="https://peikert.wordpress.com/wp-admin/users.php?page=wpcom-invite-users" class="secondary" id="wp-admin-bar-people-add">Hinzufügen</a></div>		</li>
+		<li id="wp-admin-bar-domains" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/domains/peikert.wordpress.com">Domains</a>		</li>
+		<li id="wp-admin-bar-blog-settings" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/settings/general/peikert.wordpress.com">Einstellungen</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-jumptotop-button-menu"><a class="ab-item"  href="#"><div id="jumptotop"><span class="noticon noticon-top"></span></div></a>		</li>
+		<li id="wp-admin-bar-newdash" class="menupop"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/">Reader</a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-newdash-default" class="ab-submenu">
+			
+		<li id="wp-admin-bar-streams-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Streams</div>		</li>
+		<li id="wp-admin-bar-following" class="inline-action">		<div class="ab-item ab-empty-item" ><a href="https://wordpress.com/" class="ab-item primary mb-icon" id="wp-admin-bar-followed-sites">Abonnierte Websites</a><a href="https://wordpress.com/following/edit" class="secondary">Verwalten</a></div>		</li>
+		<li id="wp-admin-bar-discover-discover" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/discover">Discover</a>		</li>
+		<li id="wp-admin-bar-discover-recommended-blogs" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/recommendations">Empfehlungen</a>		</li>
+		<li id="wp-admin-bar-my-activity-my-likes" class="mb-icon-spacer"><a class="ab-item"  href="https://wordpress.com/activities/likes">Eigene „Gefällt mir“-Angaben</a>		</li>		</ul>
+	</div>		</li>		</ul>
+			<ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+			
+		<li id="wp-admin-bar-notes" class="menupop">		<div class="ab-item ab-empty-item" ><span id="wpnt-notes-unread-count" class="wpnt-loading wpn-unread"></span><span class="noticon noticon-bell"></span><span class="ab-text">Benachrichtigungen</span></div><div id="wpnt-notes-panel2" style="display:none" lang="de" dir="ltr"><div class="wpnt-notes-panel-header"><span class="wpnt-notes-header"></span><span class="wpnt-notes-panel-link"></span></div></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="https://wordpress.com/me/"><img alt='' src='https://1.gravatar.com/avatar/44ee60544ccec076018ebc56159a3b51?s=32&#038;d=mm&#038;r=G' class='avatar avatar-32' height='32' width='32' /><span class="ab-text">Ich</span></a>			<div class="ab-sub-wrapper">		<ul id="wp-admin-bar-user-actions" class="ab-submenu">
+			
+		<li id="wp-admin-bar-user-info" class="user-info user-info-item">		<div class="ab-item ab-empty-item" tabindex="-1"><img alt='' src='https://1.gravatar.com/avatar/44ee60544ccec076018ebc56159a3b51?s=128&#038;d=mm&#038;r=G' class='avatar avatar-128' height='128' width='128' /><span class="display-name">peikert</span><a class="username" href="http://gravatar.com/peikert">@peikert</a><form action="https://peikert.wordpress.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fwordpress.com%2F&amp;_wpnonce=b0ff242d68" method="post"><button class="ab-sign-out" type="submit">Abmelden</button></form></div>		</li>
+		<li id="wp-admin-bar-profile-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Profil</div>		</li>
+		<li id="wp-admin-bar-my-profile" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me">Mein Profil</a>		</li>
+		<li id="wp-admin-bar-account-settings" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/account">Kontoeinstellungen</a>		</li>
+		<li id="wp-admin-bar-billing" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/billing">Rechnungsverlauf</a>		</li>
+		<li id="wp-admin-bar-security" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/security">Sicherheit</a>		</li>
+		<li id="wp-admin-bar-notifications" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/notifications">Benachrichtigungen</a>		</li>
+		<li id="wp-admin-bar-special-header" class="ab-submenu-header">		<div class="ab-item ab-empty-item" >Extra</div>		</li>
+		<li id="wp-admin-bar-get-apps" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/get-apps">Apps herunterladen</a>		</li>
+		<li id="wp-admin-bar-next-steps" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/me/next">Nächste Schritte</a>		</li>
+		<li id="wp-admin-bar-help" class="mb-icon"><a class="ab-item"  href="https://wordpress.com/help">Hilfe</a>		</li>		</ul>
+	</div>		</li>
+		<li id="wp-admin-bar-ab-new-post"><a class="ab-item"  href="https://wordpress.com/post/peikert.wordpress.com"></a>		</li>		</ul>
+				</div>
+							<a class="screen-reader-shortcut" href="https://peikert.wordpress.com/wp-login.php?action=logout&#038;_wpnonce=b0ff242d68">Abmelden</a>
+					</div>
+
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var clickDebugLink;
+
+jQuery(document).ready( function($) {
+	var single = false, w = 1000,
+		supe = false;
+
+	$(document.body).load(function(){ $('#wpadminbar img.grav-hashed').removeClass('grav-hashed'); }); // hack to hide the gravatar hovercard
+
+	if ( single && supe )
+		w = 1385;
+	else if ( supe )
+		w = 1200;
+
+	// debug bar extra
+	clickDebugLink = function( parent_id, obj ) {
+
+		$('#'+parent_id).children('div').hide();
+
+		document.getElementById( obj.href.substr( obj.href.indexOf( '#' ) + 1 ) ).style.display = 'block';
+		$( obj.href.substr( obj.href.indexOf( '#' ) ) ).show()
+
+		$(obj).parent().addClass('current').siblings('li').removeClass('current');
+
+		return false;
+	};
+
+	$( '#wpadminbar #wp-admin-bar-shortlink' ).click( function() {
+		$( '#adminbar-shortlink-input' ).select();
+	});
+
+	// skip tap-to-hover on site switcher for mobile
+	if ( 'ontouchstart' in window ) {
+		$('#wp-admin-bar-switch-site').on( 'touchstart', function( event ) {
+			if ( $( window ).width() > 782 ) {
+				return;
+			}
+			event.stopPropagation();
+			$( event.target ).first( 'a' ).click();
+		});
+	}
+
+});
+/* ]]> */
+</script>
+	<div class="wpcom-bubble action-bubble">
+		<div class="bubble-txt"></div>
+	</div>
+	<script type="text/javascript">function hideBubble() { jQuery('body').append( jQuery( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble touchstart.bubble' ); jQuery(document).off( 'scroll.bubble' ); };</script>
+		<script type="text/javascript">
+	jQuery( '#wp-admin-bar-jumptotop-button-menu a' ).click( function( e ) {
+		e.preventDefault();
+		jQuery( 'html, body' ).animate( { scrollTop: 0 }, 'fast' );
+	} );
+	function hideShowTbJumpToTop() {
+		var total_width = 0;
+		// Calculate total width taken by items minus our button to see if it'll
+		// overlap with other toolbar menus.
+		jQuery( '#wp-admin-bar-root-default > li' ).each( function() {
+			var self = jQuery( this );
+			if ( 'wp-admin-bar-jumptotop-button-menu' != self.attr( 'id' ) )
+				total_width += self.width();
+		});
+		if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() >= 350 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) < 0 ) {
+			if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 )
+			   return;
+			jQuery( '#jumptotop' ).animate( { 'top': 0 }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() < 1 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) >= 0 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		}
+	}
+	// handle on page load if auto scrolling to a position
+	hideShowTbJumpToTop();
+	// bind to scrolll event
+	var jumpToTopTimer = null;
+	jQuery( window ).scroll( function() {
+		clearTimeout( jumpToTopTimer );
+		jumpToTopTimer = setTimeout( jumpToTopRefresh, 150 );
+	} );
+	var jumpToTopRefresh = function() {
+		hideShowTbJumpToTop();
+	};
+	</script>
+	<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
